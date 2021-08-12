@@ -9,11 +9,6 @@ from torch.utils.data import DataLoader
 from tqdm.auto import tqdm
 from transformers import get_linear_schedule_with_warmup
 
-import pytorch_lightning as pl
-from pytorch_lightning.callbacks.progress import ProgressBarBase
-from pytorch_lightning.utilities import _TPU_AVAILABLE
-
-
 class ATGTransformer(pl.LightningModule):
     """
     A training module for aitextgen.

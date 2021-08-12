@@ -9,7 +9,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Max Woolf",
     author_email="max@minimaxir.com",
-    url="https://github.com/minimaxir/aitextgen",
+    url="https://github.com/xdrie/aitextgen_inference",
     keywords=["gpt-2", "gpt2", "text generation", "ai"],
     classifiers=[],
     license="MIT",
@@ -19,7 +19,6 @@ setup(
     install_requires=[
         "transformers>=4.5.1",
         "fire>=0.3.0",
-        "pytorch-lightning>=1.3.1",
         "torch>=1.6.0",
     ],
 )
