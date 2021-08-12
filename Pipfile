@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+transformers = ">=4.5.1"
+fire = ">=0.3.0"
+torch = ">=1.6.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
